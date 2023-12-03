@@ -122,3 +122,23 @@ body {
   transform: translateX(0em) translateY(0em);
   box-shadow: none;
 }
+
+/* This is design Code of alert */
+
+
+.login-failure-message {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  background-color: #f44336;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 1;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
