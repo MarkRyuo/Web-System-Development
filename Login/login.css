@@ -100,16 +100,17 @@ body {
 }
 
 .form .btn {
-  margin-top: 2em;
+  /* margin-top: 2em; */
   align-self: center;
-  padding: 0.7em;
+  /* padding: 0.7em;
   padding-left: 1em;
-  padding-right: 1em;
+  padding-right: 1em; */
   border-radius: 10px;
   border: none;
-  color: black;
+  /* color: black; */
   transition: .4s ease-in-out;
-  box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+  box-shadow: rgba(70, 69, 69, 0.4) 1px 1px 1px;
+
 }
 
 .form .btn:hover {
