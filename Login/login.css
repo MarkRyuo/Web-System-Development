@@ -33,11 +33,11 @@ body {
   transition: .4s ease-in-out;
   box-shadow: rgba(0, 0, 0, 0.4) 1px 2px 2px;
   width: 30vw;
-  height:70vh;
+  height:75vh;
   justify-content: center;
 
   background: transparent;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(50px);
 
   gap: 5vh;
 
@@ -55,7 +55,7 @@ body {
 .form:hover {
   transform: translateX(-0.5em) translateY(-0.5em);
   border: 1px solid #171717;
-  box-shadow: 10px 10px 0px #666666;
+  box-shadow: 10px 10px 0px #4a4a4a;
 }
 
 .heading {
