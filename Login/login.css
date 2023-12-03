@@ -5,6 +5,12 @@
   padding: 0;
 }
 
+body {
+  background-image: url(/Login/tindahan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 .form-parent {
   display: flex;
