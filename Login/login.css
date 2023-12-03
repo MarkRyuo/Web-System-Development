@@ -39,6 +39,10 @@
   margin-left: 2.8vw;
 }
 
+.a-forgot:hover {
+  color: rgb(34, 34, 241);
+}
+
 .form:hover {
   transform: translateX(-0.5em) translateY(-0.5em);
   border: 1px solid #171717;
