@@ -9,7 +9,7 @@ body {
   background-image: url(/Login/tindahan.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(5px);
 }
 
 
