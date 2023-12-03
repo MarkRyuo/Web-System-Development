@@ -129,7 +129,7 @@ body {
 .login-failure-message {
   display: none;
   position: fixed;
-  top: 15%;
+  top: 17%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 15px;
@@ -141,7 +141,7 @@ body {
   opacity: 1;
   transition: opacity 0.5s ease, visibility 0.5s ease;
 
-  width: 30vw;
+  width: 28vw;
   height: 8vh;
 
   font-size: 1.2rem;

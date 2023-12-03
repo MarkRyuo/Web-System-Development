@@ -25,7 +25,7 @@ function login() {
               // Hide the message after 1 sec
               setTimeout(function () {
                   loginFailureMessage.style.display = 'none';
-              }, 1000);
+              }, 2500);
           }
       }
   };
