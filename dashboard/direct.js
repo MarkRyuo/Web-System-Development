@@ -5,7 +5,13 @@
 
 
 
+  function redirectTotest3() {
+      window.location.href = '/Login/login.html'; // Todo actual file path
+    }
 
+  function redirectTotest4() {
+    window.location.href = '/Login/login.html'; // Todo actual file path
+  }
 
   function redirectTotest5() {
     window.location.href = '/Login/login.html'; // Todo actual file path
