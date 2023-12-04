@@ -1,8 +1,12 @@
 
 
+  function redirectTotest1() {
+    window.location.href = '/Login/login.html'; // Todo actual file path
+  }
 
-
-
+  function redirectTotest2() {
+    window.location.href = '/Login/login.html'; // Todo actual file path
+  }
 
 
   function redirectTotest3() {
