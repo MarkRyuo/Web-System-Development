@@ -1,4 +1,17 @@
 
+
+
+
+
+
+
+
+
+  function redirectTotest5() {
+    window.location.href = '/Login/login.html'; // Todo actual file path
+  }
+
+
   function redirectTotest6() {
-    window.location.href = '/Login/login.html'; // Replace 'operations.html' with the actual file path
+    window.location.href = '/Login/login.html'; // Todo actual file path
   }
