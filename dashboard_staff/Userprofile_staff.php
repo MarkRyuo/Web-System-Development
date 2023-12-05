@@ -12,14 +12,21 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
+// Check if the user is not logged in
 if (!isset($_SESSION['username'])) {
-  header('Location: Userprofile_staff.php');
-  exit;
+    header('Location: Userprofile_staff.php');
+    exit;
 }
 
 // Retrieve user information from the session
 $username = htmlspecialchars($_SESSION['username']);
 $role = htmlspecialchars($_SESSION['role']);
+
+// Check if the user is not a staff member
+if ($role !== 'staff') {
+    header('Location: /dashboard/Dashboard.html'); // Redirect to the appropriate page for non-staff members
+    exit;
+}
 ?>
 
 <!DOCTYPE html>
@@ -34,7 +41,7 @@ $role = htmlspecialchars($_SESSION['role']);
 <form class="input">
     <h1>Welcome staff!</h1>
 
-    <label for="role" class="role">User Role</label>
+    <label for="role" class="role">User Role:</label>
     <input type="text" id="role" name="role" value="<?php echo $role; ?>" readonly>
 
     <label for="username">Username:</label>
