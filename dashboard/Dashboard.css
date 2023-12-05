@@ -3,6 +3,7 @@
 #templateContainer {
   color: #78787b;
   overflow: scroll;
+  /* border: 1px solid black; */
 }
 
 #templateContainer.fullscreen{
@@ -19,12 +20,11 @@
   box-shadow: 0px 5px 10px #d0cfcf;
   height: 85px;
   background-color: #F5F5F5;
+
+  border: 1px solid black;
 }
 
-/*
- * Top navigation
- * Hide default border to remove 1px line.
- */
+
 #templateContainer .navbar-fixed-top {
   border: 0;
 }
