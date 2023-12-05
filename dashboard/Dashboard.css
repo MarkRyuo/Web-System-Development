@@ -21,7 +21,7 @@
   height: 85px;
   background-color: #F5F5F5;
 
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 
@@ -157,4 +157,5 @@
 .button2 {
   float: right;
   margin-top: 1.5vh;
+  margin-right: 3vw;
 }
