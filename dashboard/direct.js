@@ -4,24 +4,16 @@
     window.location.href = '/Login/login.html'; // Todo actual file path
   }
 
-  function redirectTotest2() {
+  function redirectToproducts() {
     window.location.href = '/Login/login.html'; // Todo actual file path
   }
 
 
-  function redirectTotest3() {
+  function redirectviewtransacrtion() {
       window.location.href = '/Login/login.html'; // Todo actual file path
     }
 
-  function redirectTotest4() {
+  function redirectTosuppliers() {
     window.location.href = '/Login/login.html'; // Todo actual file path
   }
 
-  function redirectTotest5() {
-    window.location.href = '/Login/login.html'; // Todo actual file path
-  }
-
-
-  function redirectTotest6() {
-    window.location.href = '/Login/login.html'; // Todo actual file path
-  }
