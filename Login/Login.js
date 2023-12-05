@@ -15,7 +15,7 @@ function login() {
               if (response.role === 'admin') {
                   window.location.href = '/dashboard/Dashboard.html'; //Todo
               } else {  
-                  window.location.href = '/dashboard staff/Dashboard.html'; //Todo
+                  window.location.href = '/dashboard_staff/Dashboard.html'; //Todo
               }
           } else {g
               // Display login failure message in the center
