@@ -150,3 +150,11 @@
   -moz-transition: all 0.4s linear;
   transition: all 0.4s linear;
 }
+
+
+/* Design Button2 */
+
+.button2 {
+  float: right;
+  margin-top: 1.5vh;
+}
