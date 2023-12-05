@@ -1,9 +1,14 @@
 <?php
 session_start();
 
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "ims_db";
+
 // Check if the user is logged in, if not, redirect to login page
 if (!isset($_SESSION['username']) || !isset($_SESSION['role'])) {
-    header("Location: /login.html"); // Update the path if needed
+    header("Location: /Login/login.php"); // Update the path if needed
     exit();
 }
 
