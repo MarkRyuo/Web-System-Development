@@ -1,8 +1,6 @@
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css";
 
 #templateContainer {
-  background-image: url("http://jdevadf.oracle.com/workbetter/afr/alta-v1/tile.png");
-  background-repeat: repeat;
   color: #78787b;
   overflow: scroll;
 }
