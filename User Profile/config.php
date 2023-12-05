@@ -1,8 +1,8 @@
 <?php
-$servername = "your_database_hostname";
-$username = "your_database_username";
-$password = "your_database_password";
-$dbname = "your_database_name";
+$servername = ";ocalhost";
+$username = "root";
+$password = "";
+$dbname = "ims_db";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
