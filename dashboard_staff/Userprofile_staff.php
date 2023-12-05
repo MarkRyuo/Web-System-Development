@@ -19,14 +19,14 @@ if (!isset($_SESSION['username'])) {
 }
 
 // Retrieve user information from the session
-$username = htmlspecialchars($_SESSION['username']);
-$role = htmlspecialchars($_SESSION['role']);
+$username = $_SESSION['username'];
+$role = $_SESSION['role'];
 
-// Check if the user is not a staff member
-if ($role !== 'staff') {
-    header('Location: /dashboard/Dashboard.html'); // Redirect to the appropriate page for non-staff members
-    exit;
-}
+// // Check if the user is not a staff member
+// if ($role !== 'staff') {
+//     header('Location: /dashboard/Dashboard.html'); // Redirect to the appropriate page for non-staff members
+//     exit;
+// }
 ?>
 
 <!DOCTYPE html>
