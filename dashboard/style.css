@@ -3,7 +3,7 @@
 #templateContainer {
   background-image: url("http://jdevadf.oracle.com/workbetter/afr/alta-v1/tile.png");
   background-repeat: repeat;
-  color: #606062;
+  color: #78787b;
   overflow: scroll;
 }
 
@@ -18,7 +18,7 @@
 
 #templateContainer .navbar.alta-theme {
   border-bottom: 1px solid #c0c0c0;
-  box-shadow: 0px 10px 15px #c0c0c0;
+  box-shadow: 0px 5px 10px #d0cfcf;
   height: 85px;
   background-color: #F5F5F5;
 }
