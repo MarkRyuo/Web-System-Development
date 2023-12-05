@@ -4,7 +4,7 @@ session_start();
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "db_nt3102";
+$dbname = "ims_db";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -27,3 +27,25 @@ if (!isset($_SESSION['username'])) {
 $username = $_SESSION['username'];
 $usersign = $_SESSION['usersign'];
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome staff</title>
+</head>
+<body>
+
+<form class="input">
+    <h1>Welcome staff!</h1>
+
+    <label for="role" class="role">User Role</label>
+    <input type="text" id="role" name="role" value="<?php echo $role; ?>" readonly>
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" value="<?php echo $username; ?>" readonly>
+</form>
+
+</body>
+</html>
