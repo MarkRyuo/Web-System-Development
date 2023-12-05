@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 
 // Check if the user is not logged in
 if (!isset($_SESSION['username'])) {
-    header('Location: /dashboard_staff/Userprofile_staff.php');
+    header('Location: Userprofile_staff.php');
     exit;
 }
 
@@ -22,8 +22,11 @@ if (!isset($_SESSION['username'])) {
 $username = $_SESSION['username'];
 $role = $_SESSION['role'];
 
-// Close database connection
-$conn->close();
+// // Check if the user is not a staff member
+// if ($role !== 'staff') {
+//     header('Location: /dashboard/Dashboard.html'); // Redirect to the appropriate page for non-staff members
+//     exit;
+// }
 ?>
 
 <!DOCTYPE html>
