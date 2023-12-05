@@ -24,8 +24,8 @@ if (!isset($_SESSION['username'])) {
 // }
 
 // Retrieve user information from the session
-$username = $_SESSION['username'];
-$usersign = $_SESSION['usersign'];
+$username = htmlspecialchars($_SESSION['username']);
+$role = htmlspecialchars($_SESSION['role']);
 ?>
 
 <!DOCTYPE html>
