@@ -13,11 +13,11 @@ function login() {
           if (response.success) {
               // Redirect to the appropriate page based on the role
               if (response.role === 'admin') {
-                  window.location.href = ''; //Todo
+                  window.location.href = '/dashboard/Dashboard.html'; //Todo
               } else {  
-                  window.location.href = ''; //Todo
+                  window.location.href = '/dashboard/Dashboard.html'; //Todo
               }
-          } else {
+          } else {g
               // Display login failure message in the center
               loginFailureMessage.innerHTML = 'Login failed. Please check your username and password.';
               loginFailureMessage.style.display = 'block';

@@ -4,7 +4,7 @@ session_start();
 include('config.php');
 
 if (!isset($_SESSION['username'])) {
-    header("Location: /Login/login.php");
+    header("Location: profile.php");
     exit();
 }
 
