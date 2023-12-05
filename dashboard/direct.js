@@ -1,6 +1,6 @@
 
 
-  function redirectTotest1() {
+  function redirectTouserprofile() {
     window.location.href = '/Login/login.html'; // Todo actual file path
   }
 
