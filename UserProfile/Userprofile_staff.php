@@ -17,12 +17,6 @@ if (!isset($_SESSION['username'])) {
   exit;
 }
 
-// if ($_SESSION['role'] !== 'admin') {
-//   // Redirect if the user is not an admin
-//   header('Location: /UserProfile Security/userProfileSecurity.php');
-//   exit;
-// }
-
 // Retrieve user information from the session
 $username = htmlspecialchars($_SESSION['username']);
 $role = htmlspecialchars($_SESSION['role']);
