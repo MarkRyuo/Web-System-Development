@@ -42,7 +42,7 @@ $role = $_SESSION['role'];
     <h1>Welcome staff!</h1>
 
     <label for="role" class="role">User Role:</label>
-    <input type="text" id="role" name="role" value="<?php echo htmlspecialchars($role); ?>"" readonly>
+    <input type="text" id="role" name="role" value="<?php echo htmlspecialchars($role); ?>" readonly>
 
     <label for="username">Username:</label>
     <input type="text" id="username" name="username" value="<?php echo htmlspecialchars($username); ?>" readonly>
